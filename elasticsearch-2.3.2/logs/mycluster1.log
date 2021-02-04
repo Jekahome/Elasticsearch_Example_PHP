@@ -1,0 +1,127 @@
+[2016-05-03 20:00:22,664][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 20:00:22,948][INFO ][node                     ] [My First Node] version[2.3.2], pid[3416], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 20:00:22,949][INFO ][node                     ] [My First Node] initializing ...
+[2016-05-03 20:00:23,635][INFO ][plugins                  ] [My First Node] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 20:00:23,665][INFO ][env                      ] [My First Node] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 20:00:23,665][INFO ][env                      ] [My First Node] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 20:00:26,032][ERROR][bootstrap                ] Guice Exception: java.lang.IllegalArgumentException: script.disable_dynamic is not a supported setting, replace with fine-grained script settings. 
+Dynamic scripts can be enabled for all languages and all operations by replacing `script.disable_dynamic: false` with `script.inline: on` and `script.indexed: on` in elasticsearch.yml
+	at org.elasticsearch.script.ScriptService.<init>(ScriptService.java:145)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at <<<guice>>>
+	at org.elasticsearch.node.Node.<init>(Node.java:213)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:270)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+
+[2016-05-03 20:01:03,513][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 20:01:03,774][INFO ][node                     ] [My First Node] version[2.3.2], pid[7512], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 20:01:03,775][INFO ][node                     ] [My First Node] initializing ...
+[2016-05-03 20:01:04,443][INFO ][plugins                  ] [My First Node] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 20:01:04,468][INFO ][env                      ] [My First Node] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 20:01:04,469][INFO ][env                      ] [My First Node] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 20:01:06,471][INFO ][node                     ] [My First Node] initialized
+[2016-05-03 20:01:06,472][INFO ][node                     ] [My First Node] starting ...
+[2016-05-03 20:01:06,576][INFO ][transport                ] [My First Node] publish_address {localhost/127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2016-05-03 20:01:06,581][INFO ][discovery                ] [My First Node] mycluster1/YyLECFhSQ9G22aZEG7lAfg
+[2016-05-03 20:01:10,626][INFO ][cluster.service          ] [My First Node] new_master {My First Node}{YyLECFhSQ9G22aZEG7lAfg}{127.0.0.1}{localhost/127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 20:01:10,647][INFO ][http                     ] [My First Node] publish_address {localhost/127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2016-05-03 20:01:10,648][INFO ][node                     ] [My First Node] started
+[2016-05-03 20:01:10,778][INFO ][gateway                  ] [My First Node] recovered [0] indices into cluster_state
+[2016-05-03 20:01:25,459][INFO ][node                     ] [My First Node] stopping ...
+[2016-05-03 20:01:25,471][INFO ][node                     ] [My First Node] stopped
+[2016-05-03 20:01:25,472][INFO ][node                     ] [My First Node] closing ...
+[2016-05-03 20:01:25,479][INFO ][node                     ] [My First Node] closed
+[2016-05-03 20:01:44,851][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 20:01:45,105][INFO ][node                     ] [My First Node] version[2.3.2], pid[6232], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 20:01:45,106][INFO ][node                     ] [My First Node] initializing ...
+[2016-05-03 20:01:45,779][INFO ][plugins                  ] [My First Node] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 20:01:45,803][INFO ][env                      ] [My First Node] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 20:01:45,803][INFO ][env                      ] [My First Node] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 20:01:47,813][INFO ][node                     ] [My First Node] initialized
+[2016-05-03 20:01:47,814][INFO ][node                     ] [My First Node] starting ...
+[2016-05-03 20:01:50,185][ERROR][bootstrap                ] [My First Node] Exception
+BindTransportException[Failed to resolve publish address]; nested: UnknownHostException[localhost/];
+	at org.elasticsearch.transport.netty.NettyTransport.createBoundTransportAddress(NettyTransport.java:508)
+	at org.elasticsearch.transport.netty.NettyTransport.bindServerBootstrap(NettyTransport.java:443)
+	at org.elasticsearch.transport.netty.NettyTransport.doStart(NettyTransport.java:321)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.transport.TransportService.doStart(TransportService.java:182)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:278)
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:206)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:272)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.net.UnknownHostException: localhost/
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.elasticsearch.common.network.NetworkService.resolveInternal(NetworkService.java:266)
+	at org.elasticsearch.common.network.NetworkService.resolveInetAddresses(NetworkService.java:209)
+	at org.elasticsearch.common.network.NetworkService.resolvePublishHostAddresses(NetworkService.java:167)
+	at org.elasticsearch.transport.netty.NettyTransport.createBoundTransportAddress(NettyTransport.java:506)
+	... 9 more
+[2016-05-03 20:01:50,214][INFO ][node                     ] [My First Node] stopping ...
+[2016-05-03 20:01:50,219][INFO ][node                     ] [My First Node] stopped
+[2016-05-03 20:01:50,220][INFO ][node                     ] [My First Node] closing ...
+[2016-05-03 20:01:50,226][INFO ][node                     ] [My First Node] closed
+[2016-05-03 20:02:19,931][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 20:02:20,184][INFO ][node                     ] [My First Node] version[2.3.2], pid[6740], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 20:02:20,184][INFO ][node                     ] [My First Node] initializing ...
+[2016-05-03 20:02:20,859][INFO ][plugins                  ] [My First Node] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 20:02:20,883][INFO ][env                      ] [My First Node] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 20:02:20,884][INFO ][env                      ] [My First Node] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 20:02:22,945][INFO ][node                     ] [My First Node] initialized
+[2016-05-03 20:02:22,945][INFO ][node                     ] [My First Node] starting ...
+[2016-05-03 20:02:23,234][INFO ][transport                ] [My First Node] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2016-05-03 20:02:23,239][INFO ][discovery                ] [My First Node] mycluster1/vL-7WW_UTDS-6RFLFHHfQg
+[2016-05-03 20:02:27,282][INFO ][cluster.service          ] [My First Node] new_master {My First Node}{vL-7WW_UTDS-6RFLFHHfQg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 20:02:27,411][INFO ][gateway                  ] [My First Node] recovered [0] indices into cluster_state
+[2016-05-03 20:02:27,549][INFO ][http                     ] [My First Node] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2016-05-03 20:02:27,549][INFO ][node                     ] [My First Node] started
+[2016-05-03 20:02:57,293][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:02:57,293][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:03:27,304][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:03:40,814][INFO ][cluster.metadata         ] [My First Node] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-05-03 20:03:41,590][INFO ][cluster.routing.allocation] [My First Node] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-05-03 20:03:57,313][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:03:57,315][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:04:27,325][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:04:57,333][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:04:57,334][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:05:27,344][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:05:57,355][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:05:57,356][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:06:27,363][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:06:57,373][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:06:57,374][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:07:27,382][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:07:57,391][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:07:57,392][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:08:27,403][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:08:57,410][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:08:57,411][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:09:27,419][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:09:57,428][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:09:57,429][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:10:27,437][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:10:57,447][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:10:57,448][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:11:27,455][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:11:57,463][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:11:57,464][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:12:27,465][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:12:57,467][WARN ][cluster.routing.allocation.decider] [My First Node] high disk watermark [90%] exceeded on [vL-7WW_UTDS-6RFLFHHfQg][My First Node][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\mycluster1\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 20:12:57,468][INFO ][cluster.routing.allocation.decider] [My First Node] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 20:13:23,978][INFO ][node                     ] [My First Node] stopping ...
+[2016-05-03 20:13:23,992][INFO ][node                     ] [My First Node] stopped
+[2016-05-03 20:13:23,993][INFO ][node                     ] [My First Node] closing ...
+[2016-05-03 20:13:23,997][INFO ][node                     ] [My First Node] closed

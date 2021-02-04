@@ -1,0 +1,516 @@
+[2016-05-03 18:00:35,815][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 18:00:36,635][INFO ][node                     ] [Diamanda Nero] version[2.3.2], pid[5384], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 18:00:36,636][INFO ][node                     ] [Diamanda Nero] initializing ...
+[2016-05-03 18:00:38,457][INFO ][plugins                  ] [Diamanda Nero] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 18:00:38,753][INFO ][env                      ] [Diamanda Nero] using [1] data paths, mounts [[(C:)]], net usable_space [10gb], net total_space [99.9gb], spins? [unknown], types [NTFS]
+[2016-05-03 18:00:38,754][INFO ][env                      ] [Diamanda Nero] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 18:00:45,588][INFO ][node                     ] [Diamanda Nero] initialized
+[2016-05-03 18:00:45,588][INFO ][node                     ] [Diamanda Nero] starting ...
+[2016-05-03 18:00:46,287][INFO ][transport                ] [Diamanda Nero] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-03 18:00:46,331][INFO ][discovery                ] [Diamanda Nero] elasticsearch/PaenYNU8SnyExQRYUX88nQ
+[2016-05-03 18:00:50,452][INFO ][cluster.service          ] [Diamanda Nero] new_master {Diamanda Nero}{PaenYNU8SnyExQRYUX88nQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 18:00:50,638][INFO ][gateway                  ] [Diamanda Nero] recovered [0] indices into cluster_state
+[2016-05-03 18:00:50,824][INFO ][http                     ] [Diamanda Nero] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-03 18:00:50,824][INFO ][node                     ] [Diamanda Nero] started
+[2016-05-03 18:01:20,480][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:01:50,484][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:02:20,488][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:02:50,491][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:03:20,494][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:03:50,496][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:04:20,498][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:04:50,500][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:05:20,502][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:05:50,506][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:06:20,508][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:06:50,510][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:07:20,513][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:07:50,517][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:08:20,519][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:08:50,522][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:09:20,525][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:09:50,528][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:10:20,531][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:10:50,534][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:11:20,536][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:11:50,538][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:12:20,540][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:12:50,542][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:13:20,545][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:13:50,547][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:14:20,549][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:14:50,551][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:15:20,554][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:15:50,557][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:16:20,559][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:16:50,561][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:17:20,563][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:17:50,565][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:18:20,568][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:18:50,571][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:19:20,573][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:19:50,575][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:20:20,577][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:20:50,579][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:21:20,582][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:21:50,584][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:22:20,586][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:22:50,588][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:23:20,590][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:23:50,592][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:24:20,595][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:24:50,598][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:25:20,600][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:25:50,602][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:26:20,604][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:26:50,607][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:27:20,609][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:27:50,611][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:28:20,613][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:28:50,616][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:29:20,619][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:29:50,621][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:30:20,623][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:30:50,625][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:31:20,627][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:31:50,630][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:32:20,632][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:32:50,634][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:33:20,636][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:33:50,639][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:34:20,642][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:34:50,645][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:35:20,647][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:35:50,650][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:36:20,652][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:36:50,655][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:37:20,658][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:37:50,660][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:38:20,662][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:38:50,665][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:39:20,666][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:39:50,671][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:40:20,672][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:40:50,674][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:41:20,676][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:41:50,679][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:42:20,681][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:42:50,685][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:43:20,687][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:43:50,689][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:44:20,691][INFO ][cluster.routing.allocation.decider] [Diamanda Nero] low disk watermark [85%] exceeded on [PaenYNU8SnyExQRYUX88nQ][Diamanda Nero][C:\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 10gb[10%], replicas will not be assigned to this node
+[2016-05-03 18:44:46,088][INFO ][node                     ] [Diamanda Nero] stopping ...
+[2016-05-03 18:44:46,143][INFO ][node                     ] [Diamanda Nero] stopped
+[2016-05-03 18:44:46,143][INFO ][node                     ] [Diamanda Nero] closing ...
+[2016-05-03 18:44:46,168][INFO ][node                     ] [Diamanda Nero] closed
+[2016-05-03 18:49:03,542][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 18:49:04,225][INFO ][node                     ] [Freak of Science] version[2.3.2], pid[5688], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 18:49:04,226][INFO ][node                     ] [Freak of Science] initializing ...
+[2016-05-03 18:49:05,946][INFO ][plugins                  ] [Freak of Science] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 18:49:06,028][INFO ][env                      ] [Freak of Science] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 18:49:06,029][INFO ][env                      ] [Freak of Science] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 18:49:12,241][INFO ][node                     ] [Freak of Science] initialized
+[2016-05-03 18:49:12,242][INFO ][node                     ] [Freak of Science] starting ...
+[2016-05-03 18:49:12,921][INFO ][transport                ] [Freak of Science] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-03 18:49:12,950][INFO ][discovery                ] [Freak of Science] elasticsearch/R35NRUB1RmWZTwfqyk98SQ
+[2016-05-03 18:49:17,009][INFO ][cluster.service          ] [Freak of Science] new_master {Freak of Science}{R35NRUB1RmWZTwfqyk98SQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 18:49:17,171][INFO ][gateway                  ] [Freak of Science] recovered [0] indices into cluster_state
+[2016-05-03 18:49:17,416][INFO ][http                     ] [Freak of Science] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-03 18:49:17,417][INFO ][node                     ] [Freak of Science] started
+[2016-05-03 18:49:47,023][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:49:47,025][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:50:17,061][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:50:47,065][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:50:47,066][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:51:17,067][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:51:47,070][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:51:47,071][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:52:17,073][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:52:47,075][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:52:47,076][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:53:17,079][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:53:47,082][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:53:47,083][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:54:17,084][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:54:47,086][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:54:47,087][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:55:17,090][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:55:47,092][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:55:47,093][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:56:17,097][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:56:34,824][WARN ][http.netty               ] [Freak of Science] Caught exception while handling client http traffic, closing connection [id: 0xf700ba15, /127.0.0.1:5728 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: invalid version format: -D ' "NAME" : "DILBERT BROWN"  HTTP/1.1
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:94)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-03 18:56:34,861][WARN ][http.netty               ] [Freak of Science] Caught exception while handling client http traffic, closing connection [id: 0xf700ba15, /127.0.0.1:5728 :> /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:89)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:554)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.closeRequested(SimpleChannelHandler.java:334)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:260)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.handleDownstream(HttpPipeliningHandler.java:105)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:206)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.exceptionCaught(NettyHttpServerTransport.java:465)
+	at org.elasticsearch.http.netty.HttpRequestHandler.exceptionCaught(HttpRequestHandler.java:70)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelHandler.exceptionCaught(SimpleChannelHandler.java:156)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:130)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-03 18:56:47,101][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:56:47,102][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:57:17,105][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:57:47,107][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:57:47,108][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:58:17,111][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:58:47,113][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:58:47,114][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:59:17,117][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:59:47,120][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 18:59:47,121][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 18:59:48,260][INFO ][cluster.metadata         ] [Freak of Science] [blog] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [user]
+[2016-05-03 18:59:49,735][INFO ][cluster.routing.allocation] [Freak of Science] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog][4]] ...]).
+[2016-05-03 18:59:49,771][DEBUG][action.index             ] [Freak of Science] failed to execute [index {[blog][user][dilbert], source[_na_]}] on [[blog][0]]
+MapperParsingException[failed to parse]; nested: NotXContentException[Compressor detection can only be called on some xcontent bytes or compressed xcontent bytes];
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:154)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:309)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:580)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndexOnPrimary(IndexShard.java:559)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:212)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:224)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:158)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:66)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:639)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:279)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:271)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.compress.NotXContentException: Compressor detection can only be called on some xcontent bytes or compressed xcontent bytes
+	at org.elasticsearch.common.compress.CompressorFactory.compressor(CompressorFactory.java:85)
+	at org.elasticsearch.common.xcontent.XContentHelper.createParser(XContentHelper.java:50)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:90)
+	... 17 more
+[2016-05-03 19:00:17,147][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:00:47,154][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:00:47,155][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:01:17,162][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:01:47,171][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:01:47,171][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:02:17,181][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:02:46,607][INFO ][cluster.metadata         ] [Freak of Science] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-05-03 19:02:47,036][INFO ][cluster.routing.allocation] [Freak of Science] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-05-03 19:02:47,190][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:02:47,190][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:03:17,204][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:03:47,218][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:03:47,219][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:04:17,232][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:04:47,248][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:04:47,249][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:05:17,263][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:05:47,277][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:05:47,279][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:06:17,291][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:06:47,305][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:06:47,306][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:07:17,320][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:07:47,339][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:07:47,340][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:08:17,354][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:08:47,379][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:08:47,380][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:09:17,394][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:09:47,408][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:09:47,409][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:10:17,423][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:10:47,437][WARN ][cluster.routing.allocation.decider] [Freak of Science] high disk watermark [90%] exceeded on [R35NRUB1RmWZTwfqyk98SQ][Freak of Science][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:10:47,438][INFO ][cluster.routing.allocation.decider] [Freak of Science] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:10:57,042][INFO ][node                     ] [Freak of Science] stopping ...
+[2016-05-03 19:10:57,136][INFO ][node                     ] [Freak of Science] stopped
+[2016-05-03 19:10:57,137][INFO ][node                     ] [Freak of Science] closing ...
+[2016-05-03 19:10:57,143][INFO ][node                     ] [Freak of Science] closed
+[2016-05-03 19:11:25,937][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 19:11:26,339][INFO ][node                     ] [Stentor] version[2.3.2], pid[1408], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 19:11:26,339][INFO ][node                     ] [Stentor] initializing ...
+[2016-05-03 19:11:27,226][INFO ][plugins                  ] [Stentor] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 19:11:27,307][INFO ][env                      ] [Stentor] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 19:11:27,307][INFO ][env                      ] [Stentor] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 19:11:31,137][INFO ][node                     ] [Stentor] initialized
+[2016-05-03 19:11:31,138][INFO ][node                     ] [Stentor] starting ...
+[2016-05-03 19:11:33,623][ERROR][bootstrap                ] [Stentor] Exception
+BindTransportException[Failed to resolve host null]; nested: UnknownHostException[http://elastic];
+	at org.elasticsearch.transport.netty.NettyTransport.bindServerBootstrap(NettyTransport.java:426)
+	at org.elasticsearch.transport.netty.NettyTransport.doStart(NettyTransport.java:321)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.transport.TransportService.doStart(TransportService.java:182)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:278)
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:206)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:272)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: java.net.UnknownHostException: http://elastic
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.elasticsearch.common.network.NetworkService.resolveInternal(NetworkService.java:266)
+	at org.elasticsearch.common.network.NetworkService.resolveInetAddresses(NetworkService.java:209)
+	at org.elasticsearch.common.network.NetworkService.resolveBindHostAddresses(NetworkService.java:122)
+	at org.elasticsearch.transport.netty.NettyTransport.bindServerBootstrap(NettyTransport.java:424)
+	... 8 more
+[2016-05-03 19:11:33,638][INFO ][node                     ] [Stentor] stopping ...
+[2016-05-03 19:11:33,642][INFO ][node                     ] [Stentor] stopped
+[2016-05-03 19:11:33,643][INFO ][node                     ] [Stentor] closing ...
+[2016-05-03 19:11:33,651][INFO ][node                     ] [Stentor] closed
+[2016-05-03 19:12:18,950][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 19:12:19,221][INFO ][node                     ] [Spymaster] version[2.3.2], pid[3824], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 19:12:19,222][INFO ][node                     ] [Spymaster] initializing ...
+[2016-05-03 19:12:19,911][INFO ][plugins                  ] [Spymaster] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 19:12:19,940][INFO ][env                      ] [Spymaster] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 19:12:19,941][INFO ][env                      ] [Spymaster] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 19:12:22,090][INFO ][node                     ] [Spymaster] initialized
+[2016-05-03 19:12:22,090][INFO ][node                     ] [Spymaster] starting ...
+[2016-05-03 19:12:22,219][INFO ][transport                ] [Spymaster] publish_address {elastic/127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2016-05-03 19:12:22,319][INFO ][discovery                ] [Spymaster] elasticsearch/VLdMYDe_RBS6S2amysQG9g
+[2016-05-03 19:12:26,362][INFO ][cluster.service          ] [Spymaster] new_master {Spymaster}{VLdMYDe_RBS6S2amysQG9g}{127.0.0.1}{elastic/127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 19:12:26,379][INFO ][http                     ] [Spymaster] publish_address {elastic/127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2016-05-03 19:12:26,379][INFO ][node                     ] [Spymaster] started
+[2016-05-03 19:12:26,539][INFO ][gateway                  ] [Spymaster] recovered [2] indices into cluster_state
+[2016-05-03 19:12:28,044][INFO ][cluster.routing.allocation] [Spymaster] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog][2], [blog][2]] ...]).
+[2016-05-03 19:12:56,387][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:12:56,388][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:13:26,428][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:13:56,440][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:13:56,441][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:14:26,455][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:14:56,506][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:14:56,507][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:15:26,520][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:15:56,535][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:15:56,536][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:16:17,653][INFO ][cluster.metadata         ] [Spymaster] [test2] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-05-03 19:16:18,067][INFO ][cluster.routing.allocation] [Spymaster] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test2][4]] ...]).
+[2016-05-03 19:16:26,552][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:16:56,573][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:16:56,574][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:17:26,595][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:17:56,618][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:17:56,619][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:18:26,640][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:18:56,660][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:18:56,661][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:19:26,680][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:19:56,699][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:19:56,700][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:20:26,719][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:20:56,739][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:20:56,740][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:21:26,758][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:21:56,778][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:21:56,779][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:22:26,799][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:22:56,819][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:22:56,820][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:23:26,839][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:23:56,858][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:23:56,858][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:24:26,879][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:24:56,898][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:24:56,899][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:25:26,920][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:25:56,940][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:25:56,941][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:26:26,961][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:26:56,984][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:26:56,985][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:27:27,002][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:27:57,023][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:27:57,024][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:28:27,043][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:28:57,062][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:28:57,063][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:29:27,084][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:29:57,104][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:29:57,105][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:30:27,124][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:30:57,143][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:30:57,144][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:31:27,164][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:31:57,183][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:31:57,184][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:32:27,204][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:32:57,224][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:32:57,270][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:33:27,290][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:33:57,310][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:33:57,311][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:34:27,330][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:34:57,354][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:34:57,355][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:35:27,375][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:35:57,423][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:35:57,424][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:36:27,444][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:36:57,464][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:36:57,465][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:37:27,485][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:37:57,503][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:37:57,504][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:38:27,523][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:38:57,541][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:38:57,542][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:39:27,563][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:39:57,581][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:39:57,582][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:40:27,602][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:40:57,620][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:40:57,621][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:41:27,640][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:41:57,661][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:41:57,662][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:42:27,683][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:42:57,703][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:42:57,703][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:43:27,722][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:43:57,743][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:43:57,744][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:44:27,762][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:44:57,781][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:44:57,783][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:45:27,801][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:45:57,819][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:45:57,820][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:46:27,854][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:46:57,875][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:46:57,876][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:47:27,895][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:47:57,914][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:47:57,915][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:48:27,933][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:48:57,953][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:48:57,954][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:49:27,972][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:49:57,995][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:49:57,996][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:50:28,015][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:50:58,037][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:50:58,038][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:51:28,058][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:51:58,077][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:51:58,078][INFO ][cluster.routing.allocation.decider] [Spymaster] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:52:28,097][WARN ][cluster.routing.allocation.decider] [Spymaster] high disk watermark [90%] exceeded on [VLdMYDe_RBS6S2amysQG9g][Spymaster][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:52:30,311][INFO ][node                     ] [Spymaster] stopping ...
+[2016-05-03 19:52:30,370][INFO ][node                     ] [Spymaster] stopped
+[2016-05-03 19:52:30,371][INFO ][node                     ] [Spymaster] closing ...
+[2016-05-03 19:52:30,382][INFO ][node                     ] [Spymaster] closed
+[2016-05-03 19:52:37,618][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2016-05-03 19:52:37,896][INFO ][node                     ] [Hela] version[2.3.2], pid[8108], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-03 19:52:37,897][INFO ][node                     ] [Hela] initializing ...
+[2016-05-03 19:52:38,576][INFO ][plugins                  ] [Hela] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-03 19:52:38,603][INFO ][env                      ] [Hela] using [1] data paths, mounts [[(D:)]], net usable_space [2.6gb], net total_space [97.4gb], spins? [unknown], types [NTFS]
+[2016-05-03 19:52:38,604][INFO ][env                      ] [Hela] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2016-05-03 19:52:40,698][INFO ][node                     ] [Hela] initialized
+[2016-05-03 19:52:40,698][INFO ][node                     ] [Hela] starting ...
+[2016-05-03 19:52:40,813][INFO ][transport                ] [Hela] publish_address {elastic/127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2016-05-03 19:52:40,882][INFO ][discovery                ] [Hela] elasticsearch/xJ4IljWoTHuwbNf3krPZzA
+[2016-05-03 19:52:44,929][INFO ][cluster.service          ] [Hela] new_master {Hela}{xJ4IljWoTHuwbNf3krPZzA}{127.0.0.1}{elastic/127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-03 19:52:44,948][INFO ][http                     ] [Hela] publish_address {elastic/127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2016-05-03 19:52:44,952][INFO ][node                     ] [Hela] started
+[2016-05-03 19:52:45,108][INFO ][gateway                  ] [Hela] recovered [3] indices into cluster_state
+[2016-05-03 19:52:46,479][INFO ][cluster.routing.allocation] [Hela] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog][0], [blog][2], [blog][2], [blog][0]] ...]).
+[2016-05-03 19:53:14,951][WARN ][cluster.routing.allocation.decider] [Hela] high disk watermark [90%] exceeded on [xJ4IljWoTHuwbNf3krPZzA][Hela][D:\OpenServer\domains\Elasticsearch\elasticsearch-2.3.2\data\elasticsearch\nodes\0] free: 2.6gb[2.7%], shards will be relocated away from this node
+[2016-05-03 19:53:14,952][INFO ][cluster.routing.allocation.decider] [Hela] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-05-03 19:53:17,374][INFO ][node                     ] [Hela] stopping ...
+[2016-05-03 19:53:17,440][INFO ][node                     ] [Hela] stopped
+[2016-05-03 19:53:17,441][INFO ][node                     ] [Hela] closing ...
+[2016-05-03 19:53:17,447][INFO ][node                     ] [Hela] closed
